@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "045D17256C5C559A8DFD93939ABA2656298019EB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "045D17256C5C559A8DFD93939ABA2656298019EB" : 0,
+    "C13218BF30DA20AF1CF7E3F1C901B96ADC74F05B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C720DDF1-508F-4361-8F87-ACC5017F7400",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "045D17256C5C559A8DFD93939ABA2656298019EB" : "Claws\/",
+    "C13218BF30DA20AF1CF7E3F1C901B96ADC74F05B" : "Claws\/Claws\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Claws",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Claws.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosFinalProject\/Claws-Of-War-Code-2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "045D17256C5C559A8DFD93939ABA2656298019EB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosFinalProject\/Claws-Of-War-Code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C13218BF30DA20AF1CF7E3F1C901B96ADC74F05B"
+    }
+  ]
+}

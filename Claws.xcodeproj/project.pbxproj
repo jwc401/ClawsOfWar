@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9713A9781CD6A9E300FD517E /* AddItemScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9713A9731CD6A9E300FD517E /* AddItemScreen.m */; };
+		9713A9791CD6A9E300FD517E /* DecorationInventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9713A9751CD6A9E300FD517E /* DecorationInventory.m */; };
+		9713A97A1CD6A9E300FD517E /* FoodInventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9713A9771CD6A9E300FD517E /* FoodInventory.m */; };
+		97282CB51CCDA23700DC1CEC /* currentStateGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97282CB41CCDA23700DC1CEC /* currentStateGameData.m */; };
+		972FE3AF1CC98DD0004ED064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3AE1CC98DD0004ED064 /* main.m */; };
+		972FE3B21CC98DD0004ED064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3B11CC98DD0004ED064 /* AppDelegate.m */; };
+		972FE3B51CC98DD0004ED064 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3B41CC98DD0004ED064 /* GameScene.m */; };
+		972FE3B71CC98DD0004ED064 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 972FE3B61CC98DD0004ED064 /* GameScene.sks */; };
+		972FE3BA1CC98DD0004ED064 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3B91CC98DD0004ED064 /* GameViewController.m */; };
+		972FE3BF1CC98DD0004ED064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972FE3BE1CC98DD0004ED064 /* Assets.xcassets */; };
+		972FE3C21CC98DD0004ED064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972FE3C01CC98DD0004ED064 /* LaunchScreen.storyboard */; };
+		972FE3CD1CC98DD0004ED064 /* ClawsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3CC1CC98DD0004ED064 /* ClawsTests.m */; };
+		972FE3D81CC98DD0004ED064 /* ClawsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3D71CC98DD0004ED064 /* ClawsUITests.m */; };
+		972FE3E91CC99261004ED064 /* Cats.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3E81CC99261004ED064 /* Cats.m */; };
+		972FE3EC1CC99345004ED064 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3EB1CC99345004ED064 /* Food.m */; };
+		972FE3EF1CC993D2004ED064 /* DecorativeItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3EE1CC993D2004ED064 /* DecorativeItems.m */; };
+		972FE3F21CC99F64004ED064 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3F11CC99F64004ED064 /* Test.m */; };
+		972FE3F71CCC1893004ED064 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 972FE3F61CCC1893004ED064 /* GameData.m */; };
+		9764C9231CD7D2EE008CDCB5 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9764C9221CD7D2EE008CDCB5 /* Shop.m */; };
+		9764C9251CD7D3F9008CDCB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9764C9241CD7D3F9008CDCB5 /* Main.storyboard */; };
+		979C12321CE1265A0006F326 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97282CB11CCD750E00DC1CEC /* StartViewController.m */; };
+		979C12371CE660990006F326 /* AddFoodScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 979C12361CE660990006F326 /* AddFoodScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972FE3C91CC98DD0004ED064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972FE3A21CC98DCF004ED064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972FE3A91CC98DCF004ED064;
+			remoteInfo = Claws;
+		};
+		972FE3D41CC98DD0004ED064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972FE3A21CC98DCF004ED064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972FE3A91CC98DCF004ED064;
+			remoteInfo = Claws;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9713A9721CD6A9E300FD517E /* AddItemScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemScreen.h; sourceTree = "<group>"; };
+		9713A9731CD6A9E300FD517E /* AddItemScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemScreen.m; sourceTree = "<group>"; };
+		9713A9741CD6A9E300FD517E /* DecorationInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorationInventory.h; sourceTree = "<group>"; };
+		9713A9751CD6A9E300FD517E /* DecorationInventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorationInventory.m; sourceTree = "<group>"; };
+		9713A9761CD6A9E300FD517E /* FoodInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodInventory.h; sourceTree = "<group>"; };
+		9713A9771CD6A9E300FD517E /* FoodInventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodInventory.m; sourceTree = "<group>"; };
+		97282CB01CCD750E00DC1CEC /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		97282CB11CCD750E00DC1CEC /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		97282CB31CCDA23700DC1CEC /* currentStateGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currentStateGameData.h; sourceTree = "<group>"; };
+		97282CB41CCDA23700DC1CEC /* currentStateGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = currentStateGameData.m; sourceTree = "<group>"; };
+		972FE3AA1CC98DCF004ED064 /* Claws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Claws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972FE3AE1CC98DD0004ED064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		972FE3B01CC98DD0004ED064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		972FE3B11CC98DD0004ED064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		972FE3B31CC98DD0004ED064 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		972FE3B41CC98DD0004ED064 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		972FE3B61CC98DD0004ED064 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		972FE3B81CC98DD0004ED064 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		972FE3B91CC98DD0004ED064 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		972FE3BE1CC98DD0004ED064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		972FE3C11CC98DD0004ED064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		972FE3C31CC98DD0004ED064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972FE3C81CC98DD0004ED064 /* ClawsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClawsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972FE3CC1CC98DD0004ED064 /* ClawsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClawsTests.m; sourceTree = "<group>"; };
+		972FE3CE1CC98DD0004ED064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972FE3D31CC98DD0004ED064 /* ClawsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClawsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972FE3D71CC98DD0004ED064 /* ClawsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClawsUITests.m; sourceTree = "<group>"; };
+		972FE3D91CC98DD0004ED064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972FE3E71CC99261004ED064 /* Cats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cats.h; sourceTree = "<group>"; };
+		972FE3E81CC99261004ED064 /* Cats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cats.m; sourceTree = "<group>"; };
+		972FE3EA1CC99345004ED064 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		972FE3EB1CC99345004ED064 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		972FE3ED1CC993D2004ED064 /* DecorativeItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorativeItems.h; sourceTree = "<group>"; };
+		972FE3EE1CC993D2004ED064 /* DecorativeItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorativeItems.m; sourceTree = "<group>"; };
+		972FE3F01CC99F64004ED064 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		972FE3F11CC99F64004ED064 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		972FE3F51CCC1893004ED064 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		972FE3F61CCC1893004ED064 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		9764C9211CD7D2D9008CDCB5 /* Shop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		9764C9221CD7D2EE008CDCB5 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		9764C9241CD7D3F9008CDCB5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		979C12351CE6608E0006F326 /* AddFoodScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodScreen.h; sourceTree = "<group>"; };
+		979C12361CE660990006F326 /* AddFoodScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972FE3A71CC98DCF004ED064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3C51CC98DD0004ED064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3D01CC98DD0004ED064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972FE3A11CC98DCF004ED064 = {
+			isa = PBXGroup;
+			children = (
+				972FE3AC1CC98DCF004ED064 /* Claws */,
+				972FE3CB1CC98DD0004ED064 /* ClawsTests */,
+				972FE3D61CC98DD0004ED064 /* ClawsUITests */,
+				972FE3AB1CC98DCF004ED064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972FE3AB1CC98DCF004ED064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972FE3AA1CC98DCF004ED064 /* Claws.app */,
+				972FE3C81CC98DD0004ED064 /* ClawsTests.xctest */,
+				972FE3D31CC98DD0004ED064 /* ClawsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972FE3AC1CC98DCF004ED064 /* Claws */ = {
+			isa = PBXGroup;
+			children = (
+				972FE3B01CC98DD0004ED064 /* AppDelegate.h */,
+				972FE3B11CC98DD0004ED064 /* AppDelegate.m */,
+				972FE3B31CC98DD0004ED064 /* GameScene.h */,
+				972FE3B41CC98DD0004ED064 /* GameScene.m */,
+				972FE3B61CC98DD0004ED064 /* GameScene.sks */,
+				972FE3F51CCC1893004ED064 /* GameData.h */,
+				972FE3F61CCC1893004ED064 /* GameData.m */,
+				972FE3E71CC99261004ED064 /* Cats.h */,
+				972FE3E81CC99261004ED064 /* Cats.m */,
+				97282CB31CCDA23700DC1CEC /* currentStateGameData.h */,
+				97282CB41CCDA23700DC1CEC /* currentStateGameData.m */,
+				972FE3B81CC98DD0004ED064 /* GameViewController.h */,
+				972FE3B91CC98DD0004ED064 /* GameViewController.m */,
+				97282CB01CCD750E00DC1CEC /* StartViewController.h */,
+				97282CB11CCD750E00DC1CEC /* StartViewController.m */,
+				972FE3F01CC99F64004ED064 /* Test.h */,
+				972FE3F11CC99F64004ED064 /* Test.m */,
+				9764C9241CD7D3F9008CDCB5 /* Main.storyboard */,
+				972FE3BE1CC98DD0004ED064 /* Assets.xcassets */,
+				972FE3ED1CC993D2004ED064 /* DecorativeItems.h */,
+				972FE3EE1CC993D2004ED064 /* DecorativeItems.m */,
+				972FE3EA1CC99345004ED064 /* Food.h */,
+				972FE3EB1CC99345004ED064 /* Food.m */,
+				9713A9721CD6A9E300FD517E /* AddItemScreen.h */,
+				9713A9731CD6A9E300FD517E /* AddItemScreen.m */,
+				979C12351CE6608E0006F326 /* AddFoodScreen.h */,
+				979C12361CE660990006F326 /* AddFoodScreen.m */,
+				9713A9741CD6A9E300FD517E /* DecorationInventory.h */,
+				9713A9751CD6A9E300FD517E /* DecorationInventory.m */,
+				9713A9761CD6A9E300FD517E /* FoodInventory.h */,
+				9713A9771CD6A9E300FD517E /* FoodInventory.m */,
+				9764C9211CD7D2D9008CDCB5 /* Shop.h */,
+				9764C9221CD7D2EE008CDCB5 /* Shop.m */,
+				972FE3C01CC98DD0004ED064 /* LaunchScreen.storyboard */,
+				972FE3C31CC98DD0004ED064 /* Info.plist */,
+				972FE3AD1CC98DCF004ED064 /* Supporting Files */,
+			);
+			path = Claws;
+			sourceTree = "<group>";
+		};
+		972FE3AD1CC98DCF004ED064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972FE3AE1CC98DD0004ED064 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		972FE3CB1CC98DD0004ED064 /* ClawsTests */ = {
+			isa = PBXGroup;
+			children = (
+				972FE3CC1CC98DD0004ED064 /* ClawsTests.m */,
+				972FE3CE1CC98DD0004ED064 /* Info.plist */,
+			);
+			path = ClawsTests;
+			sourceTree = "<group>";
+		};
+		972FE3D61CC98DD0004ED064 /* ClawsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				972FE3D71CC98DD0004ED064 /* ClawsUITests.m */,
+				972FE3D91CC98DD0004ED064 /* Info.plist */,
+			);
+			path = ClawsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972FE3A91CC98DCF004ED064 /* Claws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972FE3DC1CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "Claws" */;
+			buildPhases = (
+				972FE3A61CC98DCF004ED064 /* Sources */,
+				972FE3A71CC98DCF004ED064 /* Frameworks */,
+				972FE3A81CC98DCF004ED064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Claws;
+			productName = Claws;
+			productReference = 972FE3AA1CC98DCF004ED064 /* Claws.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972FE3C71CC98DD0004ED064 /* ClawsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972FE3DF1CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "ClawsTests" */;
+			buildPhases = (
+				972FE3C41CC98DD0004ED064 /* Sources */,
+				972FE3C51CC98DD0004ED064 /* Frameworks */,
+				972FE3C61CC98DD0004ED064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972FE3CA1CC98DD0004ED064 /* PBXTargetDependency */,
+			);
+			name = ClawsTests;
+			productName = ClawsTests;
+			productReference = 972FE3C81CC98DD0004ED064 /* ClawsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		972FE3D21CC98DD0004ED064 /* ClawsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972FE3E21CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "ClawsUITests" */;
+			buildPhases = (
+				972FE3CF1CC98DD0004ED064 /* Sources */,
+				972FE3D01CC98DD0004ED064 /* Frameworks */,
+				972FE3D11CC98DD0004ED064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972FE3D51CC98DD0004ED064 /* PBXTargetDependency */,
+			);
+			name = ClawsUITests;
+			productName = ClawsUITests;
+			productReference = 972FE3D31CC98DD0004ED064 /* ClawsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972FE3A21CC98DCF004ED064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nyu.edu;
+				TargetAttributes = {
+					972FE3A91CC98DCF004ED064 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					972FE3C71CC98DD0004ED064 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 972FE3A91CC98DCF004ED064;
+					};
+					972FE3D21CC98DD0004ED064 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 972FE3A91CC98DCF004ED064;
+					};
+				};
+			};
+			buildConfigurationList = 972FE3A51CC98DCF004ED064 /* Build configuration list for PBXProject "Claws" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972FE3A11CC98DCF004ED064;
+			productRefGroup = 972FE3AB1CC98DCF004ED064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972FE3A91CC98DCF004ED064 /* Claws */,
+				972FE3C71CC98DD0004ED064 /* ClawsTests */,
+				972FE3D21CC98DD0004ED064 /* ClawsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972FE3A81CC98DCF004ED064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972FE3B71CC98DD0004ED064 /* GameScene.sks in Resources */,
+				9764C9251CD7D3F9008CDCB5 /* Main.storyboard in Resources */,
+				972FE3C21CC98DD0004ED064 /* LaunchScreen.storyboard in Resources */,
+				972FE3BF1CC98DD0004ED064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3C61CC98DD0004ED064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3D11CC98DD0004ED064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972FE3A61CC98DCF004ED064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972FE3F71CCC1893004ED064 /* GameData.m in Sources */,
+				97282CB51CCDA23700DC1CEC /* currentStateGameData.m in Sources */,
+				9713A9781CD6A9E300FD517E /* AddItemScreen.m in Sources */,
+				972FE3BA1CC98DD0004ED064 /* GameViewController.m in Sources */,
+				972FE3F21CC99F64004ED064 /* Test.m in Sources */,
+				9764C9231CD7D2EE008CDCB5 /* Shop.m in Sources */,
+				972FE3B21CC98DD0004ED064 /* AppDelegate.m in Sources */,
+				972FE3B51CC98DD0004ED064 /* GameScene.m in Sources */,
+				9713A9791CD6A9E300FD517E /* DecorationInventory.m in Sources */,
+				972FE3EF1CC993D2004ED064 /* DecorativeItems.m in Sources */,
+				972FE3EC1CC99345004ED064 /* Food.m in Sources */,
+				979C12371CE660990006F326 /* AddFoodScreen.m in Sources */,
+				9713A97A1CD6A9E300FD517E /* FoodInventory.m in Sources */,
+				979C12321CE1265A0006F326 /* StartViewController.m in Sources */,
+				972FE3AF1CC98DD0004ED064 /* main.m in Sources */,
+				972FE3E91CC99261004ED064 /* Cats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3C41CC98DD0004ED064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972FE3CD1CC98DD0004ED064 /* ClawsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972FE3CF1CC98DD0004ED064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972FE3D81CC98DD0004ED064 /* ClawsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972FE3CA1CC98DD0004ED064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972FE3A91CC98DCF004ED064 /* Claws */;
+			targetProxy = 972FE3C91CC98DD0004ED064 /* PBXContainerItemProxy */;
+		};
+		972FE3D51CC98DD0004ED064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972FE3A91CC98DCF004ED064 /* Claws */;
+			targetProxy = 972FE3D41CC98DD0004ED064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972FE3C01CC98DD0004ED064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972FE3C11CC98DD0004ED064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972FE3DA1CC98DD0004ED064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		972FE3DB1CC98DD0004ED064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972FE3DD1CC98DD0004ED064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Claws/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.Claws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		972FE3DE1CC98DD0004ED064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Claws/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.Claws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		972FE3E01CC98DD0004ED064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ClawsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.ClawsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claws.app/Claws";
+			};
+			name = Debug;
+		};
+		972FE3E11CC98DD0004ED064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClawsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.ClawsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Claws.app/Claws";
+			};
+			name = Release;
+		};
+		972FE3E31CC98DD0004ED064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ClawsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.ClawsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Claws;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		972FE3E41CC98DD0004ED064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClawsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meet.ClawsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Claws;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972FE3A51CC98DCF004ED064 /* Build configuration list for PBXProject "Claws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972FE3DA1CC98DD0004ED064 /* Debug */,
+				972FE3DB1CC98DD0004ED064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972FE3DC1CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "Claws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972FE3DD1CC98DD0004ED064 /* Debug */,
+				972FE3DE1CC98DD0004ED064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972FE3DF1CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "ClawsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972FE3E01CC98DD0004ED064 /* Debug */,
+				972FE3E11CC98DD0004ED064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972FE3E21CC98DD0004ED064 /* Build configuration list for PBXNativeTarget "ClawsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972FE3E31CC98DD0004ED064 /* Debug */,
+				972FE3E41CC98DD0004ED064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972FE3A21CC98DCF004ED064 /* Project object */;
+}
